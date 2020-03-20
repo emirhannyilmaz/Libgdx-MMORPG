@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="62">
+ <tileset firstgid="1" name="tilesetformattedupdate1" tilewidth="16" tileheight="16" tilecount="84" columns="7">
+  <image source="tilesetformattedupdate1.png" width="112" height="192"/>
+ </tileset>
+ <layer id="14" name="ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYB/Fo3gUDxgGAOD2Big=
+  </data>
+ </layer>
+ <layer id="19" name="carpets" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMMAIxExAzk6GXA4g5gZiLQjeMJMACxKxAzEakODLgBmIeIOYlUnyoAmLCAhcYiLAAACVLALs=
+  </data>
+ </layer>
+ <layer id="16" name="stairs" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AE0K9BpQzRWkAQA22ABa
+  </data>
+ </layer>
+ <layer id="13" name="walls" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyTZWBgkINiVSQ2ISwPxCoM5AG1Ub2jeoeZXm0y9eoCMQDDkAXk
+  </data>
+ </layer>
+ <layer id="17" name="chairs" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DwAQEK9IoDsRAQC5KpXxKIJSiwn1QAAE5kAHw=
+  </data>
+ </layer>
+ <layer id="15" name="objects" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg0AJiQwZUYAnERlC2MRCbALEeEOsDsQIDfuCAxncBYlMgNgNidQJ63dH43gTUIwM/IPYH4gAgDgTiIBL0EgNkKNCnTKZecvUNNMAXVuZAbIFHHz4/2wGxPRZxRTR9wkAsgs+BSEADjS8FxNJE6kUGOmRgEAAA6vMJrA==
+  </data>
+ </layer>
+ <objectgroup id="20" name="collisions">
+  <object id="45" x="0" y="0" width="48" height="16"/>
+  <object id="46" x="64" y="0" width="176" height="16"/>
+  <object id="47" x="176" y="16" width="48" height="16"/>
+  <object id="48" x="224" y="16" width="16" height="208"/>
+  <object id="49" x="0" y="16" width="16" height="176"/>
+  <object id="50" x="0" y="192" width="16" height="32"/>
+  <object id="51" x="0" y="224" width="240" height="16"/>
+  <object id="54" x="160" y="16" width="16" height="32"/>
+  <object id="57" x="113.117" y="171.104" width="29.4218" height="19.9954"/>
+  <object id="58" x="208" y="176" width="16" height="32"/>
+  <object id="60" x="96" y="16" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup id="22" name="buypoint">
+  <object id="61" name="WeaponShop" x="96" y="48" width="80" height="16"/>
+ </objectgroup>
+ <objectgroup id="21" name="doors">
+  <object id="59" name="Town" x="48" y="0" width="16" height="16"/>
+ </objectgroup>
+</map>
