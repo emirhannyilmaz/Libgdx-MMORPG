@@ -167,8 +167,6 @@ public class Hud implements Disposable {
                 payload.setObject(item);
                 inv.getItems().removeIndex(inv.getSelectedIndex());
                 payload.setDragActor(new Label(item, skin));
-                //payload.setInvalidDragActor(new Label(item + " (\"No thanks!\")", skin));
-                //payload.setValidDragActor(new Label(item +s " (\"I'll buy this!\")", skin));
                 JSONObject data = new JSONObject();
                 try {
                     data.put("username", Player.username);
